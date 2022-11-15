@@ -1,0 +1,95 @@
+*{
+    /* border: 1px solid black; */
+}
+body{
+    padding: 0 20%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.logo img{
+    max-width: 100px;
+}
+.links{
+    max-width: 400px;
+    flex: 1 1 auto;
+}
+.links ul{
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+}
+.links ul li{
+    list-style: none;
+}
+.links ul li a{
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.intro{
+    display: flex;
+    background-color: #1f2937;
+
+}
+
+.intro h1{
+    color: #f9faf8;
+}
+
+.description, .imageholder{
+    flex: 1;
+}
+
+.imageholder, #image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#description-image{
+    width:70%;
+    max-width: 400px;
+}
+.accessories{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.acc-head{
+    text-align: center;
+}
+.acc-body{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.box{
+    min-width: fit-content;
+    max-width: fit-content;
+    width: 20%;
+    height: 200px;
+}
+.box .pic{
+    height: 80%;
+}
+.acc-body .box .pic img{
+    width: auto;
+    height: 100%;
+}
+.acc-body .box .pic-desc {
+    text-align: center;
+}
+.quote h1, .quote p {
+    text-align: center;
+}
+
