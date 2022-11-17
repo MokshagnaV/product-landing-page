@@ -1,14 +1,17 @@
 *{
     /* border: 1px solid black; */
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,700;1,100&display=swap');
 }
 body{
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 header{
     display: flex;
     justify-content: space-between;
     background-color: #1f2937;
+    padding: 0 10%;
 }
 .logo{
     display: flex;
@@ -39,11 +42,16 @@ header{
 .intro{
     display: flex;
     background-color: #1f2937;
-
+    padding: 40px 10%;
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .intro h1{
     color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0%;
 }
 
 .description, .imageholder{
@@ -58,15 +66,31 @@ header{
 
 #description-image{
     width:70%;
-    max-width: 400px;
 }
+
+button{
+    background-color: #3882F6;
+    color: #e5e7eb;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: #f9faf8 solid 1px;
+    border-radius: 10px;
+}
+
 .accessories{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    padding: 40px 10%;
 }
 .acc-head{
     text-align: center;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+.acc-head h1{
+    margin: 20px 0;
 }
 .acc-body{
     display: flex;
@@ -89,7 +113,43 @@ header{
 .acc-body .box .pic-desc {
     text-align: center;
 }
-.quote h1, .quote p {
+
+.quote h1{
+    margin: 20px 0;
+}
+
+.quote{
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    padding: 40px 10%;
     text-align: center;
 }
 
+.buynow{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+.buynow-content{
+    background-color: #3882F6;
+    color: #e5e7eb;
+    border-radius: 8px;
+}
+.buynow-content p{
+    padding: 10px 40px 10px 10px;
+    display: inline-block;
+}
+.buynow-content button{
+    margin: 20px;
+}
+footer{
+    background-color: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
